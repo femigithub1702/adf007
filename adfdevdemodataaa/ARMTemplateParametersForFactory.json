@@ -1,0 +1,90 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevdemodataaa"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"DS_SQL_CSV_password": {
+			"value": ""
+		},
+		"LS_SP_INSERTINPUTAUDIT_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsdevfinanceeeus001.dfs.core.windows.net/"
+		},
+		"DS_SQL_CSV_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"DS_SQL_CSV_properties_typeProperties_database": {
+			"value": "AUDIT"
+		},
+		"DS_SQL_CSV_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"LS_SP_INSERTINPUTAUDIT_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"LS_SP_INSERTINPUTAUDIT_properties_typeProperties_database": {
+			"value": "AUDIT"
+		},
+		"LS_SP_INSERTINPUTAUDIT_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "demodata"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "EMPLOYEE"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "sa"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "DESKTOP-58S9A32"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "demodata"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "sa"
+		}
+	}
+}
